@@ -25,7 +25,7 @@ Add Funsol-OTP dependencies in App level build.gradle.
 
 ```
     dependencies {
-        implementation 'com.github.Funsol-Projects:Funsol-OTP:1.0'
+        implementation 'com.github.Funsol-Projects:Funsol-OTP:1.1'
     }
 ```  
 
