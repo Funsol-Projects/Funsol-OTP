@@ -15,17 +15,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e4635e0-4111-406e-b60b-fdf95dd0826c" name="Changes" comment="Otp Sending SDK is completed.">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/scorpio/otptest/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/scorpio/otptest/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/otpsdk/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/otpsdk/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/otpsdk/src/main/java/com/scorpio/otpsdk/model/OtpRequest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/otpsdk/src/main/java/com/scorpio/otpsdk/model/OtpRequest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/otpsdk/src/main/java/com/scorpio/otpsdk/viewModels/OTPRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/otpsdk/src/main/java/com/scorpio/otpsdk/viewModels/OTPRepository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/otpsdk/src/main/java/com/scorpio/otpsdk/viewModels/OTPViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/otpsdk/src/main/java/com/scorpio/otpsdk/viewModels/OTPViewModel.kt" afterDir="false" />
-    </list>
+    <list default="true" id="9e4635e0-4111-406e-b60b-fdf95dd0826c" name="Changes" comment="Otp Sending SDK is completed." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -188,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654086663610</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Otp Sending SDK is completed.">
+      <created>1672140397190</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1672140397190</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
