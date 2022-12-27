@@ -7,10 +7,10 @@ import com.scorpio.otpsdk.retrofit.GetOtp
 import com.scorpio.otpsdk.utils.Constants
 
 object OTPRepository {
-    suspend fun getOtpResponse(auth_token: String, requestServer: OtpRequest): OtpResponse? {
+    suspend fun getOtpResponse(auth_token: String, email: String, requestServer: OtpRequest): OtpResponse? {
         val baseApiService = GetOtp.getOtp()
         return try {
-            val otpResponse = baseApiService.requestAppAdData(auth_token, "${Constants.BASE_URL}otp", requestServer.subject, requestServer.email, requestServer.upper, requestServer.lower)
+            val otpResponse = baseApiService.requestAppAdData(auth_token, "${Constants.BASE_URL}otp", requestServer.subject, email, requestServer.upper, requestServer.lower)
             Log.i(Constants.TAG, "sendOtp: $otpResponse")
             otpResponse
         } catch (e: java.lang.Exception) {
