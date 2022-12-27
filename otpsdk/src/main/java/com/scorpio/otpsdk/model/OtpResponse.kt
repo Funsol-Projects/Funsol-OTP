@@ -8,5 +8,5 @@ import kotlinx.android.parcel.Parcelize
 @Keep
 data class OtpResponse(
     val status: String,
-    val data: Int
+    val data: String
 ) : Parcelable

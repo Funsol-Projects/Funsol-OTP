@@ -15,10 +15,10 @@ object OTPRepository {
             otpResponse
         } catch (e: java.lang.Exception) {
             Log.i(Constants.TAG, "sendOtp: ", e)
-            OtpResponse("failure", -1)
+            OtpResponse("failure", "")
         } catch (e: Exception) {
             Log.i(Constants.TAG, "sendOtp: ", e)
-            OtpResponse("failure", -1)
+            OtpResponse("failure", "")
         }
     }
 }
