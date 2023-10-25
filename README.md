@@ -68,7 +68,7 @@ Finally verify the otp by calling below method with user given OTP.
 
 MIT License
 
-Copyright (c) [2022] [Osama Mumtaz](#https://github.com/osama1malik)
+Copyright (c) [2022] 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and
 associated documentation files (the "Software"), to deal in the Software without restriction,
